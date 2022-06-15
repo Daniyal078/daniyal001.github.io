@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(34, 41, 47, 0);
+}
+
+html {
+    font-size: 14px;
+    letter-spacing: .01rem;
+    scroll-behavior: smooth;
+}
+
+html,
+html body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: #000;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: goldenrod;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(218, 165, 32, 0.686);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(187, 151, 58, 0.919);
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.top-nav {
+    position: relative;
+    width: 100%;
+    background-color: rgb(21, 19, 19);
+    height: 286px;
+    white-space: nowrap;
+    transition: all 250ms ease-in-out;
+}
+
+body.fixed-nav .top-nav {
+    animation: t 500ms ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9031;
+}
+
+@keyframes t {
+    from {
+        transform: translateY(-300px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.top-nav-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-bottom: 1px solid #282424;
+}
+
+.top-nav-middle-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+}
+
+.top-nav-menu-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+
+.top-nav-menu-section ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.top-nav-menu-section ul li {
+    position: relative;
+    list-style-type: none;
+}
+
+.top-nav-menu-section ul a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin: 4px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.top-nav-menu-section ul a:hover {
+    text-decoration: underline;
+}
+
+.brand-logo-wrapper {
+    position: relative;
+}
+
+.brand-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-logo img {
+    position: relative;
+    width: 180px;
+    object-fit: cover;
+}
+
+.search-module {
+    position: relative;
+}
+
+.search-module a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-module a img {
+    position: relative;
+    object-fit: cover;
+}
+
+.cart-module {
+    position: relative;
+}
+
+.cart-module a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-module a img {
+    position: relative;
+    object-fit: cover;
+}
+
+
+.app-content {
+    position: relative;
+    min-height: 100%;
+}
+
+.app-section {
+    position: relative;
+    padding: 4rem 20rem;
+}
+
+.section-title {
+    position: relative;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-content {
+    position: relative;
+    padding-top: 1rem;
+}
